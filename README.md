@@ -1,5 +1,9 @@
 # Payment App Clone
 
+![image](https://github.com/user-attachments/assets/6524b4ee-e04c-4e51-89cd-a542cf0a5a59)
+![image](https://github.com/user-attachments/assets/3a580bb5-72fc-482e-b7db-bff7dcf18221)
+![image](https://github.com/user-attachments/assets/2d0075ac-4540-40a8-9b51-33d370477b62)
+
 ## Overview
 This project is a basic clone of a popular payment application, developed using HTML, CSS, and JavaScript. It is designed to help understand the front-end aspects of how big banking and transaction applications work. **This project is purely for educational purposes** and does not include any backend logic or actual payment processing.
 
