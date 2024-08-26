@@ -37,3 +37,5 @@ This project is meant to be a learning tool, helping you understand how transact
 
 ## Final Notes
 This project is a **learning resource**. It mimics the structure of a payment application but does not perform any actual transaction processing or handle sensitive user data. Use it to enhance your knowledge of front-end development in the context of financial applications.
+
+![PayPal](https://github.com/user-attachments/assets/dbb8f69c-4c3d-4545-af5e-9a251916bef8)
